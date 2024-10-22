@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.navbar-container {
+  height: 10vh;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.menu-items-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-btn {
+  background-color: transparent;
+  color: #64748b;
+  font-weight: 500;
+  margin-right: 8px;
+  border: 0;
+}
+
+.logout-btn {
+  border: 0;
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}

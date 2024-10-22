@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-lower-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 30px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.main-heading {
+  color: #000000;
+}
+
+.home-para {
+  color: #64748b;
+}
+
+.home-image {
+  height: 400px;
+  width: 400px;
+}
+
+.shop-now-btn {
+  border: 0;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+}
